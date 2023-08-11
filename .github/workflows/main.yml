@@ -1,3 +1,4 @@
+---
 name: github-actions-demo
 on: push
 jobs:
@@ -6,3 +7,9 @@ jobs:
     steps:
       - name: checkout-code
         run: echo "checkout code"
+  execute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        run: ls
+        shell: bash
