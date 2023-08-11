@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: checkout
         run: ls
-        shell: bash
+        shell: date
