@@ -4,6 +4,6 @@ jobs:
   checkout:
     run-on: ubuntu-latest
     steps:
-      - name: checkout repo
+      - name: checkout-repo
         run: echo "checkout" 
     
