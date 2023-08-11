@@ -1,15 +1,9 @@
-name: hello-world
+name: github-action-demo
 on: push
 jobs:
   checkout:
-    runs-on: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
-      - name: checkout
-        run: echo "Hello World!"
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: build
-        run: sh "ls -ltr"      
-   
+      name: checkout repo
+      run: echo "checkout" 
     
