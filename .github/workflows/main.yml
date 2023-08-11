@@ -7,5 +7,5 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
       - name: execute sh
-        run: sh "ls -ltr"  
+        shell: ls -ltr  
         
