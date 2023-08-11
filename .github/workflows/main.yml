@@ -1,9 +1,8 @@
-name: github-action-demo
+name: github-actions-demo
 on: push
 jobs:
   checkout:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout-repo
-        run: echo "checkout" 
-    
+      - name: checkout-code
+        run: echo "checkout code"
