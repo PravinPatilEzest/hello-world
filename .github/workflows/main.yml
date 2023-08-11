@@ -2,7 +2,7 @@ name: github-action-demo
 on: push
 jobs:
   checkout:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: checkout-repo
         run: echo "checkout" 
